@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.cepetlaku"
+        applicationId "com.jualcepet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -138,10 +138,20 @@ android {
 }
 
 dependencies {
+    implementation project(':@react-native-community_async-storage')
+    implementation project(':react-native-maps')
+    // implementation(project(':react-native-maps')){
+//        exclude group: 'com.google.android.gms', module: 'play-services-base'
+//        exclude group: 'com.google.android.gms', module: 'play-services-maps'
+//    }
+//    implementation 'com.google.android.gms:play-services-base:10.0.1'
+//    implementation 'com.google.android.gms:play-services-maps:10.0.1'
+    implementation project(':react-native-reanimated')
+    implementation project(':react-native-gesture-handler')
+    implementation project(':react-native-config')
     implementation project(':react-native-device-info')
     implementation project(':react-native-i18n')
     implementation project(':react-native-vector-icons')
-    implementation project(':react-native-gesture-handler')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
