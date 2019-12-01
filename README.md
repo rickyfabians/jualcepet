@@ -1,7 +1,7 @@
 #  cepetlaku
 
-<p align="center">
-<img src="./screen_record.gif" height="500" />
+<p>
+<img src="./screen_record.gif" height="288" />
 </p>
 
 
