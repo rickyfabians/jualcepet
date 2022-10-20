@@ -45,7 +45,7 @@
     "react-native-maps": "^0.26.1",
     "react-native-masonry": "^0.5.0-alpha.5",
     "react-native-masonry-list": "^2.13.0",
-    "react-native-reanimated": "^1.4.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-vector-icons": "6.1.0",
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.3.3",
